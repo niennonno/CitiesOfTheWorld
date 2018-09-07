@@ -12,12 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        accessUrl()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func accessUrl() {
+        
+        if let url = Bundle.main.url(forResource: "cities", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let json = try JSONSerialization.jsonObject(with: data) as! [[String: Any]]
+                print(json)
+            }
+            catch let error {
+                print(error)
+            }   
+        }
+        
     }
 
 

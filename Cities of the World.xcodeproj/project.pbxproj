@@ -15,6 +15,7 @@
 		D3A91A99214253890098DEFD /* Cities_of_the_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */; };
 		D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */; };
 		D3A91AB2214256860098DEFD /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = D3A91AB1214256860098DEFD /* cities.json */; };
+		D3A91ABB21426A4C0098DEFD /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91ABA21426A4C0098DEFD /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities_of_the_WorldUITests.swift; sourceTree = "<group>"; };
 		D3A91AA5214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A91AB1214256860098DEFD /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		D3A91ABA21426A4C0098DEFD /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D3A91A82214253870098DEFD /* Cities of the World */,
+				D3A91AB1214256860098DEFD /* cities.json */,
 				D3A91A97214253890098DEFD /* Cities of the WorldTests */,
 				D3A91AA2214253890098DEFD /* Cities of the WorldUITests */,
 				D3A91A81214253870098DEFD /* Products */,
@@ -103,7 +106,6 @@
 				D3A91AB521425A920098DEFD /* Swift Files */,
 				D3A91AB421425A8B0098DEFD /* Resources */,
 				D3A91A8F214253890098DEFD /* Info.plist */,
-				D3A91AB1214256860098DEFD /* cities.json */,
 			);
 			path = "Cities of the World";
 			sourceTree = "<group>";
@@ -172,6 +174,7 @@
 		D3A91AB921425AC30098DEFD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D3A91ABA21426A4C0098DEFD /* City.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			files = (
 				D3A91A86214253870098DEFD /* ViewController.swift in Sources */,
 				D3A91A84214253870098DEFD /* AppDelegate.swift in Sources */,
+				D3A91ABB21426A4C0098DEFD /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
