@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A91A84214253870098DEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A83214253870098DEFD /* AppDelegate.swift */; };
+		D3A91A86214253870098DEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A85214253870098DEFD /* ViewController.swift */; };
+		D3A91A89214253870098DEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A87214253870098DEFD /* Main.storyboard */; };
+		D3A91A8B214253890098DEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A8A214253890098DEFD /* Assets.xcassets */; };
+		D3A91A8E214253890098DEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A8C214253890098DEFD /* LaunchScreen.storyboard */; };
+		D3A91A99214253890098DEFD /* Cities_of_the_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */; };
+		D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */; };
+		D3A91AB2214256860098DEFD /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = D3A91AB1214256860098DEFD /* cities.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A91A95214253890098DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A91A78214253870098DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A91A7F214253870098DEFD;
+			remoteInfo = "Cities of the World";
+		};
+		D3A91AA0214253890098DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A91A78214253870098DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A91A7F214253870098DEFD;
+			remoteInfo = "Cities of the World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3A91A80214253870098DEFD /* Cities of the World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cities of the World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A91A83214253870098DEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3A91A85214253870098DEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3A91A88214253870098DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A91A8A214253890098DEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A91A8D214253890098DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3A91A8F214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A91A94214253890098DEFD /* Cities of the WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cities of the WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities_of_the_WorldTests.swift; sourceTree = "<group>"; };
+		D3A91A9A214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A91A9F214253890098DEFD /* Cities of the WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cities of the WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities_of_the_WorldUITests.swift; sourceTree = "<group>"; };
+		D3A91AA5214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A91AB1214256860098DEFD /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A91A7D214253870098DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A91214253890098DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A9C214253890098DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3A91A77214253870098DEFD = {
+			isa = PBXGroup;
+			children = (
+				D3A91A82214253870098DEFD /* Cities of the World */,
+				D3A91A97214253890098DEFD /* Cities of the WorldTests */,
+				D3A91AA2214253890098DEFD /* Cities of the WorldUITests */,
+				D3A91A81214253870098DEFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A91A81214253870098DEFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91A80214253870098DEFD /* Cities of the World.app */,
+				D3A91A94214253890098DEFD /* Cities of the WorldTests.xctest */,
+				D3A91A9F214253890098DEFD /* Cities of the WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A91A82214253870098DEFD /* Cities of the World */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91A83214253870098DEFD /* AppDelegate.swift */,
+				D3A91AB521425A920098DEFD /* Swift Files */,
+				D3A91AB421425A8B0098DEFD /* Resources */,
+				D3A91A8F214253890098DEFD /* Info.plist */,
+				D3A91AB1214256860098DEFD /* cities.json */,
+			);
+			path = "Cities of the World";
+			sourceTree = "<group>";
+		};
+		D3A91A97214253890098DEFD /* Cities of the WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */,
+				D3A91A9A214253890098DEFD /* Info.plist */,
+			);
+			path = "Cities of the WorldTests";
+			sourceTree = "<group>";
+		};
+		D3A91AA2214253890098DEFD /* Cities of the WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */,
+				D3A91AA5214253890098DEFD /* Info.plist */,
+			);
+			path = "Cities of the WorldUITests";
+			sourceTree = "<group>";
+		};
+		D3A91AB321425A760098DEFD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91A87214253870098DEFD /* Main.storyboard */,
+				D3A91A8C214253890098DEFD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D3A91AB421425A8B0098DEFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91AB321425A760098DEFD /* Storyboards */,
+				D3A91A8A214253890098DEFD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3A91AB521425A920098DEFD /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91AB921425AC30098DEFD /* Models */,
+				D3A91AB821425AB10098DEFD /* Views */,
+				D3A91AB621425A9D0098DEFD /* View Models */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		D3A91AB621425A9D0098DEFD /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3A91A85214253870098DEFD /* ViewController.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D3A91AB821425AB10098DEFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3A91AB921425AC30098DEFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A91A7F214253870098DEFD /* Cities of the World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A91AA8214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the World" */;
+			buildPhases = (
+				D3A91A7C214253870098DEFD /* Sources */,
+				D3A91A7D214253870098DEFD /* Frameworks */,
+				D3A91A7E214253870098DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cities of the World";
+			productName = "Cities of the World";
+			productReference = D3A91A80214253870098DEFD /* Cities of the World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3A91A93214253890098DEFD /* Cities of the WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A91AAB214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the WorldTests" */;
+			buildPhases = (
+				D3A91A90214253890098DEFD /* Sources */,
+				D3A91A91214253890098DEFD /* Frameworks */,
+				D3A91A92214253890098DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A91A96214253890098DEFD /* PBXTargetDependency */,
+			);
+			name = "Cities of the WorldTests";
+			productName = "Cities of the WorldTests";
+			productReference = D3A91A94214253890098DEFD /* Cities of the WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3A91A9E214253890098DEFD /* Cities of the WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A91AAE214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the WorldUITests" */;
+			buildPhases = (
+				D3A91A9B214253890098DEFD /* Sources */,
+				D3A91A9C214253890098DEFD /* Frameworks */,
+				D3A91A9D214253890098DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A91AA1214253890098DEFD /* PBXTargetDependency */,
+			);
+			name = "Cities of the WorldUITests";
+			productName = "Cities of the WorldUITests";
+			productReference = D3A91A9F214253890098DEFD /* Cities of the WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A91A78214253870098DEFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Aditya Vikram Godawat";
+				TargetAttributes = {
+					D3A91A7F214253870098DEFD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D3A91A93214253890098DEFD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D3A91A7F214253870098DEFD;
+					};
+					D3A91A9E214253890098DEFD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D3A91A7F214253870098DEFD;
+					};
+				};
+			};
+			buildConfigurationList = D3A91A7B214253870098DEFD /* Build configuration list for PBXProject "Cities of the World" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A91A77214253870098DEFD;
+			productRefGroup = D3A91A81214253870098DEFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A91A7F214253870098DEFD /* Cities of the World */,
+				D3A91A93214253890098DEFD /* Cities of the WorldTests */,
+				D3A91A9E214253890098DEFD /* Cities of the WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A91A7E214253870098DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A91AB2214256860098DEFD /* cities.json in Resources */,
+				D3A91A8E214253890098DEFD /* LaunchScreen.storyboard in Resources */,
+				D3A91A8B214253890098DEFD /* Assets.xcassets in Resources */,
+				D3A91A89214253870098DEFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A92214253890098DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A9D214253890098DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A91A7C214253870098DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A91A86214253870098DEFD /* ViewController.swift in Sources */,
+				D3A91A84214253870098DEFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A90214253890098DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A91A99214253890098DEFD /* Cities_of_the_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A91A9B214253890098DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A91A96214253890098DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A91A7F214253870098DEFD /* Cities of the World */;
+			targetProxy = D3A91A95214253890098DEFD /* PBXContainerItemProxy */;
+		};
+		D3A91AA1214253890098DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A91A7F214253870098DEFD /* Cities of the World */;
+			targetProxy = D3A91AA0214253890098DEFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3A91A87214253870098DEFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A91A88214253870098DEFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3A91A8C214253890098DEFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A91A8D214253890098DEFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A91AA6214253890098DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3A91AA7214253890098DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3A91AA9214253890098DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3A91AAA214253890098DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3A91AAC214253890098DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cities of the World.app/Cities of the World";
+			};
+			name = Debug;
+		};
+		D3A91AAD214253890098DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cities of the World.app/Cities of the World";
+			};
+			name = Release;
+		};
+		D3A91AAF214253890098DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cities of the World";
+			};
+			name = Debug;
+		};
+		D3A91AB0214253890098DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526ZQGMLUA;
+				INFOPLIST_FILE = "Cities of the WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niennonno.Cities-of-the-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cities of the World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A91A7B214253870098DEFD /* Build configuration list for PBXProject "Cities of the World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A91AA6214253890098DEFD /* Debug */,
+				D3A91AA7214253890098DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A91AA8214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A91AA9214253890098DEFD /* Debug */,
+				D3A91AAA214253890098DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A91AAB214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A91AAC214253890098DEFD /* Debug */,
+				D3A91AAD214253890098DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A91AAE214253890098DEFD /* Build configuration list for PBXNativeTarget "Cities of the WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A91AAF214253890098DEFD /* Debug */,
+				D3A91AB0214253890098DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3A91A78214253870098DEFD /* Project object */;
+}
