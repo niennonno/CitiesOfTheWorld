@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31699202143DF530066EF58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316991F2143DF530066EF58 /* MapViewController.swift */; };
+		D31699212143DF530066EF58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316991F2143DF530066EF58 /* MapViewController.swift */; };
+		D31699222143DF530066EF58 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316991F2143DF530066EF58 /* MapViewController.swift */; };
 		D3A91A84214253870098DEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A83214253870098DEFD /* AppDelegate.swift */; };
 		D3A91A86214253870098DEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A85214253870098DEFD /* ViewController.swift */; };
 		D3A91A89214253870098DEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A87214253870098DEFD /* Main.storyboard */; };
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D316991F2143DF530066EF58 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D3A91A80214253870098DEFD /* Cities of the World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cities of the World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A91A83214253870098DEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A91A85214253870098DEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				D3A91A85214253870098DEFD /* ViewController.swift */,
+				D316991F2143DF530066EF58 /* MapViewController.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 				D3A91A86214253870098DEFD /* ViewController.swift in Sources */,
 				D3A91A84214253870098DEFD /* AppDelegate.swift in Sources */,
 				D3A91ABB21426A4C0098DEFD /* City.swift in Sources */,
+				D31699202143DF530066EF58 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A91A99214253890098DEFD /* Cities_of_the_WorldTests.swift in Sources */,
+				D31699212143DF530066EF58 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */,
+				D31699222143DF530066EF58 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526ZQGMLUA;
 				INFOPLIST_FILE = "Cities of the World/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 526ZQGMLUA;
 				INFOPLIST_FILE = "Cities of the World/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
