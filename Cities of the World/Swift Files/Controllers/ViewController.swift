@@ -83,14 +83,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension ViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-                
-        filteredCities = cities.filter({ (city) -> Bool in
-            return city.cityName.hasPrefix(searchText)
-        })
-        tableView.reloadData()
+        searchForText(for: searchText)
+        
     }
     
-    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-        
+    func searchForText(for string: String) {
+        filteredCities = cities.filter({ (city) -> Bool in
+            return city.cityName.lowercased().hasPrefix(string.lowercased())
+        })
+        tableView.reloadData()
     }
 }

@@ -16,7 +16,6 @@
 		D3A91A8B214253890098DEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A8A214253890098DEFD /* Assets.xcassets */; };
 		D3A91A8E214253890098DEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91A8C214253890098DEFD /* LaunchScreen.storyboard */; };
 		D3A91A99214253890098DEFD /* Cities_of_the_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */; };
-		D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */; };
 		D3A91AB2214256860098DEFD /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = D3A91AB1214256860098DEFD /* cities.json */; };
 		D3A91ABB21426A4C0098DEFD /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91ABA21426A4C0098DEFD /* City.swift */; };
 /* End PBXBuildFile section */
@@ -51,8 +50,6 @@
 		D3A91A98214253890098DEFD /* Cities_of_the_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities_of_the_WorldTests.swift; sourceTree = "<group>"; };
 		D3A91A9A214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A91A9F214253890098DEFD /* Cities of the WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cities of the WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities_of_the_WorldUITests.swift; sourceTree = "<group>"; };
-		D3A91AA5214253890098DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A91AB1214256860098DEFD /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
 		D3A91ABA21426A4C0098DEFD /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +85,6 @@
 				D3A91A82214253870098DEFD /* Cities of the World */,
 				D3A91AB1214256860098DEFD /* cities.json */,
 				D3A91A97214253890098DEFD /* Cities of the WorldTests */,
-				D3A91AA2214253890098DEFD /* Cities of the WorldUITests */,
 				D3A91A81214253870098DEFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,15 +119,6 @@
 			path = "Cities of the WorldTests";
 			sourceTree = "<group>";
 		};
-		D3A91AA2214253890098DEFD /* Cities of the WorldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D3A91AA3214253890098DEFD /* Cities_of_the_WorldUITests.swift */,
-				D3A91AA5214253890098DEFD /* Info.plist */,
-			);
-			path = "Cities of the WorldUITests";
-			sourceTree = "<group>";
-		};
 		D3A91AB321425A760098DEFD /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,18 +142,18 @@
 			children = (
 				D3A91AB921425AC30098DEFD /* Models */,
 				D3A91AB821425AB10098DEFD /* Views */,
-				D3A91AB621425A9D0098DEFD /* View Models */,
+				D3A91AB621425A9D0098DEFD /* Controllers */,
 			);
 			path = "Swift Files";
 			sourceTree = "<group>";
 		};
-		D3A91AB621425A9D0098DEFD /* View Models */ = {
+		D3A91AB621425A9D0098DEFD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				D3A91A85214253870098DEFD /* ViewController.swift */,
 				D316991F2143DF530066EF58 /* MapViewController.swift */,
 			);
-			path = "View Models";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D3A91AB821425AB10098DEFD /* Views */ = {
@@ -336,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A91AA4214253890098DEFD /* Cities_of_the_WorldUITests.swift in Sources */,
 				D31699222143DF530066EF58 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
